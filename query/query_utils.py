@@ -9,15 +9,18 @@ def run_query(query: str, head: str, endpoint: str):
   else:
     raise Exception(f"Query failed to run with a {request.status_code}.")
 
-def build_query(args: str):
+def query_builder(args: str):
   """
-  stuff here
+ Based on user input, construct first query to get reports code. 
   """
   return query 
 
-def res_to_df():
+def res_to_df(res: str):
   """
-  stuff here
+  Transform api call results to pandas DataFrame
   """
+
+  
+
   return df
 
