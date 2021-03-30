@@ -1,5 +1,4 @@
-CLIENT_ID = "930bc566-90e6-4e31-a297-a03ebc9cffd3"
-CLIENT_SECRET = "52dnmuLQ5Q9z8y50UuntcgRN2XTwfTcb6e3bInFB"
+
 TOKEN_URL = "https://www.warcraftlogs.com/oauth/token"
 API_ENDPOINT = "https://www.warcraftlogs.com/api/v2/client"
 GRANT_TYPE = "client_credentials"

@@ -2,25 +2,16 @@ import json
 import requests
 import pandas as pd 
 
-def run_query(query: str, head: str, endpoint: str):
+def run_query(query: str, head: str, endpoint: str) -> dict:
   request = requests.post(endpoint, json={'query': query}, headers=head)
   if request.status_code == 200:
     return request.json()
   else:
     raise Exception(f"Query failed to run with a {request.status_code}.")
 
-def query_builder(args: str):
+def res_to_df(data: dict):
   """
- Based on user input, construct first query to get reports code. 
+  Transform api results to pandas DataFrame  
   """
-  return query 
-
-def res_to_df(res: str):
-  """
-  Transform api call results to pandas DataFrame
-  """
-
-  
-
-  return df
-
+  temp = pd.json_normalize(data)
+  return temp

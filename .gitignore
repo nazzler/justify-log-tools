@@ -8,6 +8,7 @@ __pycache__/
 .credentials
 .drafts
 .credentials
+.data
 
 # Distribution / packaging
 .Python
