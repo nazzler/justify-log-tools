@@ -1,3 +1,13 @@
+import pandas as pd 
+
+CASTS_COLUMN_LIST = {'timestamp':int(), 
+                     'type':str(),
+                     'abilityGameID':int(), 
+                     'spellName':str(), 
+                     'reportId':str()}
+
+
+
 class Codes:
 
     def __init__(self, codeEncounterId, codeDifficulty, codeMetric, codeRegion, codeFilter):

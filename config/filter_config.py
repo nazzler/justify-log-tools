@@ -1,6 +1,8 @@
 # COMPOSITION
 # tank.2|heal.4|melee.4|ranged.10
 
+#tank.t|heal.h|melee.m|range.r
+
 
 # SPEC COMPOSITION
 # x.y.z

@@ -9,6 +9,7 @@ __pycache__/
 .drafts
 .credentials
 .data
+.\config\client_config.py
 
 # Distribution / packaging
 .Python
